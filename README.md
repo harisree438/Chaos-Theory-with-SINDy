@@ -1,5 +1,7 @@
-  Time-series-data-analysis
-  Chaos Theory – Time-Series Modeling using SINDy
+    Discovering Governing Equations From Data By Sparse Identification Of Nonlinear Dynamical Systems
+  
+|  Time-series-data-analysis                       |
+|  Chaos Theory – Time-Series Modeling using SINDy |
   
   Method: SINDy framework
 
