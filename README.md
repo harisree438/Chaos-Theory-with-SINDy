@@ -9,13 +9,14 @@
 
    Tools: Python
 
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   Problem Statement: 
 
 1. Governing Equation Challenge: Extracting governing equations from data is a central challenge in diverse fields like climate science, neuroscience, ecology, finance, and epidemiology.
 
 2. Elusiveness of Models: Models remain elusive in various scientific domains, hindering a comprehensive understanding of system dynamics.
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   Objective :
 
 1. Sparse Identification: Identify concise governing equations using sparse models for accurate representation of system dynamics.
@@ -24,7 +25,7 @@
 4. Model Simplicity: Emphasize simplicity in discovered models, favoring sparse representations for interpretability and ease of use.
 5. Generalizability: Design the approach to generalize across diverse datasets and systems, providing a versatile modeling tool.
 
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
    Data Set Description: Chaotic Lorenz System
 
@@ -32,7 +33,7 @@
 2. Chaotic Dynamics: The Lorenz system exhibits chaotic behavior, leading to complex and unpredictable trajectories with sensitivity to initial conditions.
 3. Three-Dimensional Data: Each data point represents a three-dimensional state vector (x, y, z) at a specific time step, reflecting the Lorenz system's inherent three-dimensionality.
 
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     Experimental setup
 
 1. Data preprocessing : 
@@ -55,7 +56,9 @@ Regularization Threshold (𝜆): Use 𝜆 as a threshold to discard small coeffi
 Simulate the Lorenz system using the obtained coefficients and the odeint function and comparing it with original coefficients.
 Visualize and compare the generated data with the original data in a 3D plot.
 Calculate the Root Mean Squared Error (RMSE) to quantify the accuracy of the model.
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 
+  
   Performance Measures
 
 1. Simulation and Visualization of SINDy-Generated Lorenz System Trajectories
@@ -66,11 +69,12 @@ Calculate the Root Mean Squared Error (RMSE) to quantify the accuracy of the mod
 3. Root Mean Squared Error (RMSE):
    Calculate the Root Mean Squared Error (RMSE) to quantify the accuracy of the model.
    It is used  as a metric for comparing SINDy-generated data with the original data.
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Results are showcased in the .ipynb file
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
   Conclusion 
+  
 SINDy : The Sparse Identification of Nonlinear Dynamics (SINDy) algorithm successfully unraveled the governing equations underlying the chaotic Lorenz system.
 Iterative Coefficient Refinement: Through an iterative process, SINDy refined initial coefficients to yield final unknown coefficients, demonstrating the algorithm's effectiveness in capturing significant terms.
 
@@ -80,6 +84,7 @@ Quantitative Accuracy: The Root Mean Squared Error (RMSE) of 11.576 quantifies t
 
 Broad Applicability: The study highlights the broader applicability of SINDy as a data-driven approach, offering valuable insights into complex dynamics across diverse scientific domains.
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Possible future directions
 
 1. Polynomial and specialized nonlinear terms, could refine the algorithm's ability to capture intricate system dynamics.
@@ -88,13 +93,13 @@ Possible future directions
    performance. 
 4. Benchmarking and Comparison: Extensive benchmarking against alternative data-driven methods and traditional modeling approaches could provide a comprehensive evaluation of SINDy's 
     strengths and limitations.
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
    References
-1. Brunton, S., Proctor, J., & Kutz, J. (2016). Discovering governing equations from data by sparse identification of nonlinear dynamical systems. Proceedings of the National Academy of 
-   Sciences, 113(15), 3932-3937.
+   
+1. Brunton, S., Proctor, J., & Kutz, J. (2016). Discovering governing equations from data by sparse identification of nonlinear dynamical systems. Proceedings of the National Academy 
+    of  Sciences, 113(15), 3932-3937.
 2. Brunton, S., & Kutz, J. (2019). Data-driven science and engineering: Machine learning, dynamical systems, and control. Cambridge University Press.
-3. Proctor, J., & Brunton, S. (2019). Sparse identification of nonlinear dynamics for model predictive control in the low-data limit. IEEE Transactions on Control of Network Systems,  6 
-   6(3), 1028-1038.
+3. Proctor, J., & Brunton, S. (2019). Sparse identification of nonlinear dynamics for model predictive control in the low-data limit. IEEE Transactions on Control of Network Systems,  6(3), 1028-1038.
 4. Brunton, S., & Kutz, J. (2020). Machine learning for dynamical systems. Annual Review of Fluid Mechanics, 52, 477-508. 
 
 
