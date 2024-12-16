@@ -24,6 +24,8 @@
 4. Model Simplicity: Emphasize simplicity in discovered models, favoring sparse representations for interpretability and ease of use.
 5. Generalizability: Design the approach to generalize across diverse datasets and systems, providing a versatile modeling tool.
 
+
+
    Data Set Description: Chaotic Lorenz System
 
 1. Time Series Data: The dataset records state variable values over discrete time intervals, capturing the system's dynamic evolution.
